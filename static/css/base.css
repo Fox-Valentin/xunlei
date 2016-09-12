@@ -1,0 +1,162 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,th,td {
+    margin: 0;
+    padding: 0
+}
+
+fieldset,img {
+    border: 0
+}
+
+img {
+    vertical-align: middle
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400
+}
+
+address,caption,cite,code,dfn,th,var {
+    font-style: normal;
+    font-weight: 400
+}
+
+ul,ol {
+    list-style: none
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Microsoft YaHei","微软雅黑",SimSun,"宋体";
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+select,input {
+    vertical-align: middle;
+    outline: 0
+}
+
+select,input,textarea {
+    font-size: 12px
+}
+
+input[type=text],input[type=password],textarea {
+}
+
+textarea,button {
+    resize: none;
+    outline: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body {
+    background: #f7f7f7;
+    font: 12px/20px "Microsoft YaHei","微软雅黑",SimSun,"宋体";
+    
+    position: relative;
+}
+
+i,em {
+    font-style: normal
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both
+}
+
+.clearfix {
+    zoom:1}
+
+.clearit {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    overflow: hidden
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ff8400;
+    text-decoration: underline
+}
+
+.overhide {
+    overflow: hidden
+}
+
+.hidden {
+    display: none
+}
+
+.pointer {
+    cursor: pointer
+}
+
+.mLR {
+    margin: 0 auto
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+
+.hauto {
+    height: auto!important
+}
+
+.tr {
+    text-align: right
+}
+
+.tc,.text-center {
+    text-align: center
+}
+
+.t1em {
+    text-indent: 1em
+}
+
+
+.lth {
+    text-decoration: line-through
+}
+
+
+.display-block {
+    display: block
+}
+
+
+.overflow-v {
+    overflow: visible!important
+}
+
+.bdn {
+    border: 0!important
+}
+
+
+.bgff {
+    background-color: #fff
+}
